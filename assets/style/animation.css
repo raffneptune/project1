@@ -1,0 +1,29 @@
+@keyframes popUp {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes textColor {
+    0%,
+    100% {
+      color: inherit;
+    }
+    20% {
+      color: var(--primary);
+    }
+    40% {
+      color: blueviolet;
+    }
+    60% {
+      color: var(--secondary);
+    }
+    80% {
+      color: darkblue;
+    }
+  }

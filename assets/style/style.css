@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("animation.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --text-light: #0f0c17;
+  --background-light: #e4e1ef;
+  --primary-light: #945fab;
+  --secondary-light: #e3e8d5;
+  --accent-light: #689e53;
+
+  --text-dark: #e4e1ef;
+  --background-dark: #0f0c17;
+  --primary-dark: #945fab;
+  --secondary-dark: #15180d;
+  --accent-dark: #bdd7b3;
+}
+/* MAIN CSS */
+.left-section {
+  width: 75px;
+}
+.active {
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px var(--background-dark);
+  min-width: 41px;
+  transition: 0.3s all ease-in-out;
+}
+.ListPage {
+  animation: popUp 1s ease-in;
+}
+.light {
+  background-color: var(--background-light);
+  box-shadow: 1px 1px 14px var(--text-light);
+}
+.dark {
+  background-color: var(--background-dark);
+  box-shadow: 1px 1px 14px var(--text-dark);
+}
+.imagesActive {
+  animation: popUp 2s ease-in;
+}
+#pagesImage {
+  max-width: 60%;
+}
+#pagesImage img {
+  max-width: 100%;
+  height: auto;
+}
+/* HOVER CSS CREATE */
+.left-section:hover {
+  width: 240px;
+}
+.left-icon:hover,
+.message a:hover,
+.resume:hover {
+  background-color: var(--background-dark) !important;
+  border-radius: 12px;
+  transition: 0.3s all ease-out;
+}
+#Next:hover, #Previous:hover {
+  opacity: .7;
+  transition: .3s all ease-out;
+}
+
+/*  uyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
+
+.project-link span {
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+/* Warna dan animasi untuk Project 1 */
+.project1 {
+  animation: textColor1 2s infinite ease-in .2s;
+}
+
+@keyframes textColor1 {
+  0% {
+    color: #FF5733; /* Ganti dengan warna yang diinginkan */
+  }
+  50% {
+    color: #FFC300; /* Ganti dengan warna yang diinginkan */
+  }
+  100% {
+    color: #FF5733; /* Ganti dengan warna yang diinginkan */
+  }
+}
+
+/* Warna dan animasi untuk Project 2 */
+.project2 {
+  animation: textColor2 2s infinite ease-in .6s;
+}
+
+@keyframes textColor2 {
+ 0% {
+    color: #33FF57; /* Ganti dengan warna yang diinginkan */
+  }
+  50% {
+    color: #C3FF33; /* Ganti dengan warna yang diinginkan */
+  }
+  100% {
+    color: #33FF57; /* Ganti dengan warna yang diinginkan */
+  }
+}
+
+/* Warna dan animasi untuk Project 3 */
+.project3 {
+  animation: textColor3 2s infinite ease-in 1s;
+}
+
+@keyframes textColor3 {
+  0% {
+    color: #3357FF; /* Ganti dengan warna yang diinginkan */
+  }
+  50% {
+    color: #33C3FF; /* Ganti dengan warna yang diinginkan */
+  }
+  100% {
+    color: #3357FF; /* Ganti dengan warna yang diinginkan */
+  }
+}
+
+/* Warna dan animasi untuk Project 4 */
+.project4 {
+  animation: textColor4 2s infinite ease-in 1.4s;
+}
+
+@keyframes textColor4 {
+  0% {
+    color: #FF33A1; /* Ganti dengan warna yang diinginkan */
+  }
+  50% {
+    color: #FF33C3; /* Ganti dengan warna yang diinginkan */
+  }
+  100% {
+    color: #FF33A1; /* Ganti dengan warna yang diinginkan */
+  }
+}

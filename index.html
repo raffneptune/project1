@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raff | Personal Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Personal, Webpage, Portofolio, Landing Page, B E E, linktr.ee/skyzo23" />
+  <meta name="description" content="Easy To Make Personal or Portofolio Website" />
+  <link rel="stylesheet" href="assets/style/style.css" />
+  <link rel="stylesheet" href="assets/style/maintenance.css" />
+  <link rel="stylesheet" href="assets/style/@screen.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="/assets/images/raffneptune.jpg" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="d-flex justify-content-center align-items-center vh-100 position-relative light"
+    style="transition: 0.3s all ease-in">
+    <div class="h-100 position-fixed left-section overflow-hidden z-1 bar light"
+      style="top: 0; left: 0; transition: 0.6s all ease-in-out">
+      <div class="m-lg-3 m-md-3 m-sm-3 m-2">
+        <img src="/assets/images/raffneptune.jpg" alt="Icon Logo" width="48"
+          class="d-none d-md-block d-sm-block d-lg-block" />
+        <div class="d-flex flex-column gap-4 mt-5 m-2">
+          <div class="d-none d-lg-flex d-sm-flex d-md-flex align-items-center gap-3 p-2 left-icon active"
+            style="white-space: nowrap; cursor: pointer" id="ChangePage" data-page="home">
+            <i class="fa-solid fa-home fa-xl" style="color: var(--primary-light)"></i>
+            <span class="ms-3" style="font-family: 'Poppins'; color: var(--primary-light)">Home</span>
+          </div>
+          <div class="d-none d-lg-flex d-sm-flex d-md-flex align-items-center gap-3 p-2 left-icon"
+            style="white-space: nowrap; cursor: pointer" id="ChangePage" data-page="about">
+            <i class="fa-solid fa-user fa-xl" style="color: var(--primary-light)"></i>
+            <span class="ms-3" style="font-family: 'Poppins'; color: var(--primary-light)">About Me</span>
+          </div>
+
+          <div class="d-none d-lg-flex d-sm-flex d-md-flex align-items-center gap-3 p-2 left-icon"
+            style="white-space: nowrap; cursor: pointer" id="ChangePage" data-page="project">
+            <i class="fa-solid fa-umbrella fa-lg" style="color: var(--primary-light)"></i>
+            <span class="ms-3" style="font-family: 'Poppins'; color: var(--primary-light)">Project</span>
+          </div>
+
+          <div class="d-none d-lg-flex d-sm-flex d-md-flex align-items-center gap-3 p-2 left-icon"
+            style="white-space: nowrap; cursor: pointer" id="ChangePage" data-page="certificate">
+            <i class="fa-solid fa-certificate fa-lg" style="color: var(--primary-light)"></i>
+            <span class="ms-3" style="font-family: 'Poppins'; color: var(--primary-light)">Certificate</span>
+          </div>
+
+          <div class="position-absolute mb-3 mode" style="bottom: 10px">
+            
+            <div class="d-flex">
+              <i class="fa-solid fa-moon fa-lg mode_icon px-3 py-3 rounded-3" data-page="dark" id="dark" style="
+                    color: var(--primary-light);
+                    cursor: pointer;
+                    display: block;
+                  "></i>
+              <i class="fa-solid fa-sun fa-lg mode_icon px-3 py-3 rounded-3" data-page="light" id="light" style="
+                    color: var(--secondary-light);
+                    cursor: pointer;
+                    display: none;
+                  "></i>
+              <i class="fa-solid fa-bars fa-xl d-lg-none d-sm-none d-md-none d-block mx-4 me-1 px-2 py-3 rounded-3"
+                id="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                style="cursor: pointer"></i>
+            </div>
+
+            <div class="offcanvas offcanvas-top d-lg-none d-md-none d-sm-none"
+              style="background-color: var(--background-light)" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasTopLabel" style="color: var(--primary-light)">
+                  Menu
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="d-flex align-items-center gap-3 p-2 left-icon" style="white-space: nowrap; cursor: pointer"
+                  id="ChangePage" data-page="home">
+                  <i class="fa-solid fa-home fa-xl" style="color: var(--primary-light)"></i>
+                  <span class="ms-3" style="
+                        font-family: 'Poppins';
+                        color: var(--primary-light);
+                      ">Home</span>
+                </div>
+                <div class="d-flex align-items-center gap-3 p-2 left-icon" style="white-space: nowrap; cursor: pointer"
+                  id="ChangePage" data-page="about">
+                  <i class="fa-solid fa-user fa-xl" style="color: var(--primary-light)"></i>
+                  <span class="ms-3" style="
+                        font-family: 'Poppins';
+                        color: var(--primary-light);
+                      ">About Me</span>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 p-2 left-icon" style="white-space: nowrap; cursor: pointer"
+                  id="ChangePage" data-page="project">
+                  <i class="fa-solid fa-umbrella fa-lg" style="color: var(--primary-light)"></i>
+                  <span class="ms-3" style="
+                        font-family: 'Poppins';
+                        color: var(--primary-light);
+                      ">Project</span>
+                </div>
+                <div class="d-flex align-items-center gap-3 p-2 left-icon" style="white-space: nowrap; cursor: pointer"
+                  id="ChangePage" data-page="certificate">
+                  <i class="fa-solid fa-certificate fa-lg" style="color: var(--primary-light)"></i>
+                  <span class="ms-3" style="
+                        font-family: 'Poppins';
+                        color: var(--primary-light);
+                      ">Certificate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="ListPage" id="home">
+      <div class="d-flex justify-content-center gap-3 container container-main">
+        <div class="">
+          <img src="/assets/images/raffneptune.jpg" alt="Profiles Picture" width="200" height="200" class="rounded-circle"
+            style="box-shadow: 2px 1px 12px 4px var(--black-opacity);" />
+        </div>
+        <div class="col-xl-4 col-lg-5 col-sm-6">
+          <span class="text-dark" style="font-family: 'Titillium Web'; font-weight: bold">Hi There ! I'm</span>
+          <h2 style="
+                font-family: 'Poppins';
+                color: var(--primary-light);
+                letter-spacing: 2px;
+              " class="my-2">
+            Raffi
+          </h2>
+          <span class="text-dark" style="font-family: 'Poppins', sans-serif">A
+            <a href="#" style="color: var(--primary-light); font-weight: bold" class="text-decoration-none">Full Stack
+              Developer</a>
+            About Designing A Web-Based Program With The Experience I Have In
+            Web Developers</span>
+          <div class="mt-3">
+            <a href="" class="text-decoration-none py-2 px-4 rounded-3 text-white-50 me-4 resume" data-page="about"
+              style="
+                  font-family: 'Poppins';
+                  font-size: 14px;
+                  font-weight: 200;
+                  letter-spacing: 1px;
+                  background-color: var(--primary-light);
+                ">Resume</a>
+            <i class="fa-brands fa-instagram fa-xl" style="cursor: pointer; color: var(--primary-light)"></i>
+            <i class="fa-brands fa-github fa-xl mx-2" style="cursor: pointer; color: var(--primary-light)"></i>
+            <i class="fa-brands fa-linkedin fa-xl" style="cursor: pointer; color: var(--primary-light)"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ListPage" id="about" style="display: none">
+      <div class="d-flex justify-content-center vh-100 align-items-center">
+        <div class="container position-relative">
+          <div class="d-flex justify-content-center gap-5 mt-5">
+            <div class="row">
+              <div class="text-center col-lg-6 col-md-6">
+                <img src="assets/images/raffneptune.jpg" alt="Profiles Picture" width="180" class="rounded-4 mb-2 mt-5" />
+                <h2 style="
+                      color: var(--primary-light);
+                      font-family: 'Titillium Web';
+                      font-weight: 600;
+                      letter-spacing: 1px;
+                    ">
+                  Raffi 
+                </h2>
+                <p class="text-dark" style="font-family: 'Poppins'; letter-spacing: 1px">
+                  Web Developer & Software Engineer
+                </p>
+              </div>
+              <div class="head col-lg-5 col-md-6 col-12">
+                <h2 style="
+                      color: var(--primary-light);
+                      font-family: 'Titillium Web';
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                    ">
+                  About Me
+                </h2>
+                <span class="text-dark" style="font-family: 'Poppins'">I'm from Indonesia, Most People Call Me
+                  Raffi, This
+                  Programs Just my
+                  <span style="color: var(--primary-light); font-weight: bold">Hobby</span>
+                  And My
+                  <span style="color: var(--primary-light); font-weight: bold">Future</span></span>
+                <hr />
+                <table class="text-dark">
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Name</td>
+                    <td>: Raffi</td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Phone</td>
+                    <td>: Raffi</td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Address</td>
+                    <td>: Raffi</td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Website</td>
+                    <td>
+                      : 
+                      <a href="https://raffneptune.github.io"
+                        class="text-decoration-none text-dark">raffneptune.github.io</a>
+                    </td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Github</td>
+                    <td>
+                      : 
+                      <a href="https://github.com/raffneptune"
+                        class="text-decoration-none text-dark">raffneptune</a>
+                    </td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Instagram</td>
+                    <td>
+                      : 
+                      <a href="https://www.instagram.com/raffneptune"
+                        class="text-decoration-none text-dark">raffneptune</a>
+                    </td>
+                  </tr>
+                  <tr style="font-family: 'Poppins'">
+                    <td style="width: 100px">Email</td>
+                    <td>: Raffi</td>
+                  </tr>
+                </table>
+                <div class="my-3 message">
+                  <a href="https://www.instagram.com/raffneptune/"
+                    class="py-2 px-4 rounded-3 text-decoration-none text-white-50"
+                    style="background-color: var(--primary-light)">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ListPage" id="project" style="display: none">
+      <div class="d-flex align-items-center justify-content-center vh-100">
+        <div class="iniprojek">
+          <h2 style="font-family: 'Titillium Web'; font-weight: 600">
+            <span>P</span>
+            <span>R</span>
+            <span>O</span>
+            <span>J</span>
+            <span>E</span>
+            <span>C</span>
+            <span>T</span>
+            <span>S</span>
+          </h2>
+          <div class="project-list mt-4">
+            <ul class="list-unstyled text-center">
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project2/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">2</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project3/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">3</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project4/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">4</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project5/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">5</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project6/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">6</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project7/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">7</span>
+                </a>
+              </li>
+              <li class="project-item">
+                <a href="https://raffneptune.github.io/project8/index.html" class="text-decoration-none project-link">
+                  <span class="project2">P</span>
+                  <span class="project2">r</span>
+                  <span class="project2">o</span>
+                  <span class="project2">j</span>
+                  <span class="project2">e</span>
+                  <span class="project2">c</span>
+                  <span class="project2">t</span>
+                  <span class="project2">8</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <span style="font-family: 'Poppins'">By Raffi --> raffneptune</span>
+        </div>
+      </div>
+    </div>
+    <div class="ListPage" id="certificate" style="display: none;">
+      <div class="d-flex justify-content-center align-items-center gap-5 container">
+        <i class="fa-solid fa-arrow-left fa-2xl" id="Previous" style="color: var(--primary-light); cursor: pointer;"></i>
+        <div class="" id="pagesImage" style="display: block;">
+          <img src="assets/images/raffneptunelandscape.jpg" alt="Certificate Completed" >
+          <div class="description text-center mt-2 text-dark" style="font-family: 'Titillium Web';">
+            <p style="font-size: 2rem; font-weight: bold;">Raffi</p>
+            <span style="font-size: 1rem; ">Raffi</span>
+          </div>
+        </div>
+        <div class="" id="pagesImage" style="display: none;">
+          <img src="assets/images/raffneptunelandscape.jpg" alt="Certificate Completed" >
+          <div class="description text-center mt-2 text-dark" style="font-family: 'Titillium Web';">
+            <p style="font-size: 2rem; font-weight: bold;">Raffi</p>
+            <span style="font-size: 1rem; ">Raffi</span>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right fa-2xl " id="Next" style="color: var(--primary-light); cursor: pointer;"></i>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+<script src="assets/script/mode.js"></script>
+<script src="assets/script/index.js"></script>
+
+</html>

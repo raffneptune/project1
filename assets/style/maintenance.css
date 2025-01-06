@@ -1,0 +1,30 @@
+.iniprojek span:nth-child(1) {
+    animation: textColor 2s infinite ease-in .2s;
+  }
+  .iniprojek span:nth-child(2) {
+     animation: textColor 2s infinite ease-in .6s;
+  }
+  .iniprojek span:nth-child(3) {
+     animation: textColor 2s infinite ease-in 1s;
+  }
+  .iniprojek span:nth-child(4) {
+     animation: textColor 2s infinite ease-in 1.4s;
+  }
+  .iniprojek span:nth-child(5) {
+     animation: textColor 2s infinite ease-in 1.8s;
+  }
+  .iniprojek span:nth-child(6) {
+     animation: textColor 2s infinite ease-in 2.2s;
+  }
+  .iniprojek span:nth-child(7) {
+     animation: textColor 2s infinite ease-in 2.6s;
+  }
+  .iniprojek span:nth-child(8) {
+     animation: textColor 2s infinite ease-in 3s;
+  }
+  .iniprojek span:nth-child(9) {
+     animation: textColor 2s infinite ease-in 3.4s;
+  }
+  .iniprojek span:nth-child(10) {
+     animation: textColor 2s infinite ease-in 3.6s;
+  }
